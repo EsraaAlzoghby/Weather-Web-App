@@ -1,0 +1,36 @@
+@media screen and (max-width: 992px){
+    .main-color{
+        background-color: #fff;
+    }
+    .form-input input[type="search"]{
+        background-color: #fff;
+        color: #000 !important;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navbar-collapse{
+        background-color: transparent !important;
+    }
+    .navbar-collapse .navbar-nav{
+        width: 70% !important;
+    }
+    .navbar-nav a{
+        border: transparent 2px solid !important;
+        margin-bottom: 0;
+    }
+    .navbar-nav .active, .navbar-nav a:hover{
+        border: #009ad8 2px solid !important;
+        border-radius: 30px !important;
+    }
+    .form-input input[type="search"]{
+        width: 85%;
+        background-color: rgb(30, 32, 43);
+    }
+    .form-input input[type="button"]{
+        width: 15%;
+    }
+    .bg-tomorrow{
+        background-color: rgb(30, 32, 43);
+    }
+}
